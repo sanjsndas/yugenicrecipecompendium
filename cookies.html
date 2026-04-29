@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Cookies Policy | Yugenic Recipe Compendium – Golden Transparency</title>
+    <meta name="description" content="Yugenic Recipe Compendium Cookies Policy – Learn about the cookies we use, how to manage them, and your privacy choices in our golden kitchen.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fffef7;
+            color: #3e2a1f;
+            line-height: 1.6;
+        }
+
+        /* Yellow Theme Palette — consistent with compendium & privacy page */
+        :root {
+            --yellow-light: #fff9e6;
+            --yellow-soft: #fff2cc;
+            --yellow-warm: #ffe28a;
+            --yellow-deep: #f7c56e;
+            --yellow-dark: #d4a13e;
+            --brown-text: #5c3e2b;
+            --accent-orange: #e67e22;
+            --honey-glow: #ffcc66;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ffe28a, #ffd966);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--yellow-dark);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            letter-spacing: -0.5px;
+            color: #4a2a1e;
+            text-shadow: 2px 2px 0 rgba(255,255,200,0.8);
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #5e3a24;
+            font-style: italic;
+        }
+
+        nav {
+            background: #ffedb5;
+            padding: 0.8rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--yellow-warm);
+            backdrop-filter: blur(2px);
+        }
+
+        nav a {
+            margin: 0 1.2rem;
+            text-decoration: none;
+            font-weight: bold;
+            color: #7a4e2a;
+            font-size: 1.1rem;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #c96f0e;
+            border-bottom: 2px solid #c96f0e;
+            padding-bottom: 4px;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        /* cookies hero banner */
+        .cookies-hero {
+            background: var(--yellow-soft);
+            border-radius: 48px;
+            padding: 2rem 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            border: 1px solid var(--yellow-warm);
+        }
+        .cookies-hero h2 {
+            font-size: 2rem;
+            color: #b45f1b;
+            margin-bottom: 0.75rem;
+        }
+        .badge-updated {
+            background: var(--yellow-deep);
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            border-radius: 60px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+
+        /* main content styling */
+        .policy-card {
+            background: white;
+            border-radius: 36px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 32px rgba(0,0,0,0.03);
+            border: 1px solid #ffe6b3;
+            margin-bottom: 2rem;
+        }
+
+        .policy-section {
+            margin-bottom: 2.2rem;
+            scroll-margin-top: 90px;
+        }
+        .policy-section h3 {
+            font-size: 1.7rem;
+            color: #b45f1b;
+            margin-bottom: 1rem;
+            border-left: 5px solid #f7c56e;
+            padding-left: 1rem;
+        }
+        .policy-section h4 {
+            font-size: 1.2rem;
+            margin: 1.2rem 0 0.5rem;
+            color: #7a562e;
+        }
+        .policy-section p, .policy-section li {
+            margin-bottom: 0.8rem;
+            color: #2c241a;
+        }
+        .policy-section ul, .policy-section ol {
+            margin-left: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .highlight-box {
+            background: #fff7e8;
+            padding: 1rem 1.6rem;
+            border-radius: 28px;
+            border-left: 4px solid #e6a017;
+            margin: 1.2rem 0;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.2rem 0;
+            background: #fffef5;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ffe0b5;
+            padding: 12px 16px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .data-table th {
+            background: #ffedc9;
+            font-weight: bold;
+            color: #5c3e2b;
+        }
+        .cookie-list-modern {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .cookie-card {
+            background: var(--yellow-soft);
+            border-radius: 28px;
+            padding: 0.8rem 1.2rem;
+            font-size: 0.9rem;
+            flex: 1 1 200px;
+            border: 1px solid #ffdd99;
+            transition: all 0.2s;
+        }
+        .cookie-card strong {
+            color: #b45f1b;
+            display: block;
+            font-size: 1rem;
+        }
+        .consent-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+            align-items: center;
+        }
+        .btn-cookie {
+            background: #d4a13e;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.5rem;
+            border-radius: 60px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 0.9rem;
+        }
+        .btn-cookie:hover {
+            background: #b8822c;
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #d4a13e;
+            color: #7a4e2a;
+        }
+        .btn-outline:hover {
+            background: #fff0da;
+        }
+
+        .back-to-top {
+            display: inline-block;
+            background: #d4a13e;
+            color: white;
+            padding: 0.6rem 1.5rem;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+            margin-top: 1rem;
+        }
+        .back-to-top:hover {
+            background: #b8822c;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background: #3e2a1f;
+            color: #ffefcf;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+            border-top: 6px solid #ffd966;
+        }
+        .footer-address {
+            margin: 1rem 0;
+            font-style: normal;
+            line-height: 1.8;
+        }
+        footer a {
+            color: #ffdd99;
+            text-decoration: none;
+        }
+        .legal-links {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .word-badge {
+            background: #fff0d6;
+            padding: 0.2rem 1rem;
+            border-radius: 40px;
+            font-size: 0.75rem;
+            display: inline-block;
+            margin-top: 1rem;
+            font-family: monospace;
+        }
+        @media (max-width: 700px) {
+            .policy-card {
+                padding: 1.5rem;
+            }
+            .policy-section h3 {
+                font-size: 1.4rem;
+            }
+            .cookie-card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍪 YUGENIC RECIPE COMPENDIUM</h1>
+    <div class="tagline">Cookie stewardship • Transparency baked with integrity</div>
+</header>
+
+<nav>
+    <a href="#" id="nav-home">🏠 Home</a>
+    <a href="#" id="nav-about">📖 About</a>
+    <a href="#" id="nav-contact">📞 Contact</a>
+    <a href="#" id="nav-terms">⚖️ Terms Of Use</a>
+    <a href="#" id="nav-privacy">🔒 Privacy Policy</a>
+    <a href="#" id="nav-cookies-active" style="color:#c96f0e; border-bottom:2px solid #c96f0e;">🍪 Cookies Policy</a>
+</nav>
+
+<div class="container">
+    <div class="cookies-hero">
+        <h2>🍪 Our Golden Cookie Commitment</h2>
+        <p>Just like the perfect shortbread, we use cookies to enhance your Yugenic experience. This policy explains what cookies are, which ones we use, and how you can manage your preferences while respecting your privacy.</p>
+        <div class="badge-updated">📅 Last updated: April 25, 2026 | Cookie Policy v2.0 (Fresh from the oven)</div>
+    </div>
+
+    <div class="policy-card">
+        <!-- Section 1: Introduction to cookies -->
+        <div id="intro-cookies" class="policy-section">
+            <h3>🍰 What Are Cookies & Similar Technologies?</h3>
+            <p>Cookies are small text files placed on your device (computer, tablet, or mobile) when you visit websites. They help remember your actions and preferences (like language, theme, or login details) over a period of time, so you don't have to re-enter them each time. We also use local storage and tracking pixels for analytical purposes — all in a privacy-friendly way. At Yugenic Recipe Compendium, we believe in transparency: we never use invasive tracking.</p>
+            <div class="highlight-box">
+                🌟 Yugenic's golden rule: Cookies should serve <strong>you</strong> — not the other way around. We use only necessary, functional, analytical, and strictly opt-in marketing cookies (which we currently don't run). Your trust is our main ingredient.
+            </div>
+        </div>
+
+        <!-- Section 2: Types of cookies we use with details -->
+        <div id="cookie-types" class="policy-section">
+            <h3>📋 Our Cookie Menu: Categories & Purpose</h3>
+            <p>Based on function and necessity, we classify our cookies as follows. You can adjust your preferences via our interactive consent tool below or through browser settings.</p>
+            <table class="data-table">
+                <thead>
+                    <tr><th>Cookie Category</th><th>Examples & Names</th><th>Duration</th><th>Purpose</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>🍯 Strictly Necessary</strong></td>
+                        <td><code>yugenic_session</code>, <code>csrf_token</code></td>
+                        <td>Session / persistent up to 24h</td>
+                        <td>Essential for site navigation, security, and core functionality. You cannot disable them as the site would not work properly.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🌾 Functional / Preferences</strong></td>
+                        <td><code>pref_theme</code>, <code>yugenic_lang</code>, <code>recipe_view_mode</code></td>
+                        <td>3 months</td>
+                        <td>Remembers your preferred layout, light/dark mode choice (future), and last visited recipe categories for a personalized visit.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>📊 Analytical / Performance</strong></td>
+                        <td><code>_ga_yn</code> (anonymized), <code>yugenic_page_visit</code></td>
+                        <td>14 months (aggregated, non-identifiable)</td>
+                        <td>Help us understand how visitors engage with our recipes — popular dishes, search behavior, and performance — so we can improve content. All data is anonymized and never shared with third-party advertisers.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🍪 Third-party / Embeds (optional)</strong></td>
+                        <td>YouTube, Vimeo recipe player cookies (if user plays video)</td>
+                        <td>Varies</td>
+                        <td>Some recipe tutorials may be embedded from video platforms. These services may set their own cookies when you interact with a video. We do not control those cookies but encourage you to review their policies. We only embed with privacy-enhanced mode where possible.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="highlight-box">
+                ⚖️ Note: Yugenic <strong>does not use advertising cookies, retargeting pixels, or any data brokers</strong>. We never sell your browsing data. This cookie statement is part of our broader privacy commitment.
+            </div>
+        </div>
+
+        <!-- Section 3: Cookie Consent & Choices -->
+        <div id="cookie-choices" class="policy-section">
+            <h3>🛠️ Your Cookie Choices & Consent Management</h3>
+            <p>When you first visit Yugenic Recipe Compendium, you see a cookie banner that allows you to accept or reject non-essential cookies. You can also change your mind at any time using the interactive panel below. Additionally, most browsers allow you to manage cookies: block all cookies, delete existing ones, or receive alerts before a cookie is stored. However, disabling strictly necessary cookies may impact website functionality.</p>
+            
+            <div style="background: #fff3df; border-radius: 28px; padding: 1.5rem; margin: 1.5rem 0;">
+                <h4 style="margin-top: 0;">🍪 Cookie Preference Center (Interactive Demo)</h4>
+                <p style="font-size: 0.9rem;">Use the toggles below to simulate your preferences. Your real consent is stored in your browser for future visits. This reflects our real consent mechanism on the live site.</p>
+                <div id="consentControls">
+                    <div style="margin: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                        <span><strong>🍯 Strictly Necessary</strong> (Always active)</span>
+                        <span style="background:#e0e0e0; padding: 0.2rem 1rem; border-radius: 2rem;">Always On</span>
+                    </div>
+                    <div style="margin: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                        <span><strong>🌾 Functional / Preferences</strong> (Enhance experience)</span>
+                        <label class="switch" style="position: relative; display: inline-block; width: 52px; height: 26px;">
+                            <input type="checkbox" id="functionalConsent" checked style="opacity:0; width:0; height:0;">
+                            <span style="position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0; background-color: #ccc; transition: .3s; border-radius: 34px;"></span>
+                        </label>
+                    </div>
+                    <div style="margin: 0.8rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                        <span><strong>📊 Analytical / Performance</strong> (Help us improve)</span>
+                        <label class="switch" style="position: relative; display: inline-block; width: 52px; height: 26px;">
+                            <input type="checkbox" id="analyticsConsent" checked style="opacity:0; width:0; height:0;">
+                            <span style="position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0; background-color: #ccc; transition: .3s; border-radius: 34px;"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="consent-buttons" style="margin-top: 1.5rem;">
+                    <button id="saveConsentBtn" class="btn-cookie">💾 Save My Preferences</button>
+                    <button id="rejectAllOptional" class="btn-cookie btn-outline">✖️ Reject All Optional Cookies</button>
+                    <button id="acceptAllCookies" class="btn-cookie">✅ Accept All Cookies</button>
+                </div>
+                <p id="consentFeedback" style="font-size: 0.85rem; margin-top: 1rem; color: #7a562e;"></p>
+            </div>
+            <p>You may also <strong>disable cookies via browser settings</strong>: Chrome, Firefox, Safari, Edge each provide cookie controls under 'Privacy & Security' sections. Please note that disabling all cookies may prevent you from using some interactive features of Yugenic Compendium.</p>
+        </div>
+
+        <!-- Section 4: Detailed Cookie List -->
+        <div id="detailed-cookie-list" class="policy-section">
+            <h3>📜 Detailed Cookie Inventory (First-Party)</h3>
+            <p>Here is the comprehensive list of cookies we currently deploy, including their specific names and retention:</p>
+            <div class="cookie-list-modern">
+                <div class="cookie-card"><strong>🍯 yugenic_session</strong><br>Essential, session<br>Maintains secure browsing</div>
+                <div class="cookie-card"><strong>🌾 yugenic_theme_pref</strong><br>Functional, 3 months<br>Remembers light/amber theme</div>
+                <div class="cookie-card"><strong>🌾 recipe_grid_view</strong><br>Functional, 1 month<br>Preference for card/list view</div>
+                <div class="cookie-card"><strong>📊 yugenic_analytics_id</strong><br>Analytics, 14 months<br>Anonymized usage stats</div>
+                <div class="cookie-card"><strong>🍪 yugenic_cookie_consent</strong><br>Consent storage, 12 months<br>Stores your cookie choices</div>
+                <div class="cookie-card"><strong>📈 visitor_source_ref</strong><br>Analytics, 30 days<br>Helps understand traffic sources</div>
+            </div>
+            <p>We do not use flash cookies, evercookies, or tracking pixels from third-party ad networks. Our analytics provider (self-hosted plausible-style) respects Do Not Track signals.</p>
+        </div>
+
+        <!-- Section 5: Third Party Cookies and Embedded Content -->
+        <div id="third-party" class="policy-section">
+            <h3>📺 Third-Party Embedded Content (Video & Social)</h3>
+            <p>Some recipe pages may include video demonstrations from platforms like YouTube or Vimeo using 'privacy-enhanced mode'. If you choose to play a video, those platforms may drop cookies on your device. Similarly, if we ever include social share buttons (without tracking until clicked), those are activated only by your interaction. We advise you to read the cookie policies of those third parties (<a href="#" style="color:#b45f1b;">YouTube</a>, <a href="#" style="color:#b45f1b;">Vimeo</a>). You can block these third-party cookies using your browser settings or our consent manager (when applicable).</p>
+            <div class="highlight-box">
+                🎥 Yugenic does not embed tracking scripts automatically. Any third-party content requires your affirmative action (e.g., clicking 'play' on a video). Your privacy is not an afterthought.
+            </div>
+        </div>
+
+        <!-- Section 6: Changes To Cookie Policy and Contact -->
+        <div id="changes-cookies" class="policy-section">
+            <h3>🔄 Updates to Our Cookie Policy</h3>
+            <p>We may modify this Cookie Policy to reflect changes in technology, legislation, or our operations. Any material changes will be communicated through a notice on the website or via email (for registered users). The "Last updated" date at the top of this page indicates the latest revision. We encourage you to review this policy periodically.</p>
+            <p><strong>For any questions related to cookies or tracking technologies, please contact our Data Protection Officer:</strong><br>
+            ✉️ privacy@yugenicrecipes.com | 📞 +1 (800) 594-GOLD | 📍 412 Golden Sun Avenue, Suite 9B, Denver, CO 80202.</p>
+        </div>
+
+        <!-- Section 7: How to control cookies globally -->
+        <div id="global-control" class="policy-section">
+            <h3>🌍 Browser & Device Controls</h3>
+            <p>Most modern browsers provide options to manage cookies: block third-party cookies, clear existing cookies, or enable "Do Not Track" signals. Below are links to instructions for major browsers (for reference):</p>
+            <ul>
+                <li><a href="#" style="color:#b45f1b;">Google Chrome</a> – Settings → Privacy and security → Cookies and other site data.</li>
+                <li><a href="#" style="color:#b45f1b;">Mozilla Firefox</a> – Options → Privacy & Security → Cookies and Site Data.</li>
+                <li><a href="#" style="color:#b45f1b;">Safari</a> – Preferences → Privacy → Cookies and website data.</li>
+                <li><a href="#" style="color:#b45f1b;">Microsoft Edge</a> – Settings → Cookies and site permissions.</li>
+            </ul>
+            <p>You can also opt-out of analytics by enabling 'Global Privacy Control' (GPC) if your browser supports it — we honor GPC signals as a request to opt-out of non-essential cookies.</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="#" class="back-to-top" id="backToTopBtn">⬆ Back to Cookie Stewardship</a>
+        </div>
+        <div class="word-badge" style="margin-top: 2rem; text-align: center;">🍪 Yugenic Cookies Policy – Full transparency, minimal cookies, maximum taste. v2.0 – compliant with ePrivacy Directive & GDPR.</div>
+    </div>
+
+    <div style="background: #fff6e8; border-radius: 28px; padding: 1rem 1.5rem; text-align: center; border: 1px solid #ffe0b5; margin-bottom: 1rem;">
+        <p>📌 Quick reminder: By continuing to use Yugenic Recipe Compendium without changing your cookie settings, you agree to our use of necessary and functional cookies. Manage preferences anytime via this policy or browser controls.</p>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-address">
+        🍽️ YUGENIC RECIPE COMPENDIUM<br>
+        412 Golden Sun Avenue, Suite 9B, Culinary District, Denver, CO 80202<br>
+        📞 +1 (800) 594-GOLD (4653) | ✉️ hello@yugenicrecipes.com
+    </div>
+    <div class="legal-links">
+        <a href="#" id="footer-terms">Terms of Use</a> |
+        <a href="#" id="footer-privacy">Privacy Policy</a> |
+        <a href="#" id="footer-cookies-active" style="color:#ffdd99; text-decoration:underline;">Cookies Policy</a> |
+        <a href="#" id="footer-access">Accessibility</a> |
+        <span>© 2026 Yugenic Media</span>
+    </div>
+    <p style="margin-top: 1rem; font-size: 0.8rem;">Your cookie choices matter — just like the right pinch of salt makes every dish better.</p>
+</footer>
+
+<script>
+    // Unified navigation to main pages (index.html & contact)
+    const mainPage = "index.html";
+    const contactPage = "contact.html";
+    function navigateToMain(anchorId) { window.location.href = anchorId ? `${mainPage}#${anchorId}` : mainPage; }
+    function navigateToContact() { window.location.href = contactPage; }
+
+    document.getElementById('nav-home')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('home'); });
+    document.getElementById('nav-about')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('about'); });
+    document.getElementById('nav-contact')?.addEventListener('click', (e) => { e.preventDefault(); navigateToContact(); });
+    document.getElementById('nav-terms')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('terms'); });
+    document.getElementById('nav-privacy')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('privacy'); });
+    document.getElementById('nav-cookies-active')?.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    document.getElementById('footer-terms')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('terms'); });
+    document.getElementById('footer-privacy')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('privacy'); });
+    document.getElementById('footer-cookies-active')?.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    document.getElementById('footer-access')?.addEventListener('click', (e) => { e.preventDefault(); navigateToMain('accessibility'); });
+    document.getElementById('backToTopBtn')?.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+    // Cookie consent interactive simulation + localstorage for persistence demo
+    const functionalCheckbox = document.getElementById('functionalConsent');
+    const analyticsCheckbox = document.getElementById('analyticsConsent');
+    const saveBtn = document.getElementById('saveConsentBtn');
+    const rejectAllBtn = document.getElementById('rejectAllOptional');
+    const acceptAllBtn = document.getElementById('acceptAllCookies');
+    const feedbackSpan = document.getElementById('consentFeedback');
+
+    function updateToggleVisuals() {
+        const functionalSpan = document.querySelector('#functionalConsent + span');
+        const analyticsSpan = document.querySelector('#analyticsConsent + span');
+        if(functionalCheckbox.checked) functionalSpan.style.backgroundColor = '#d4a13e';
+        else functionalSpan.style.backgroundColor = '#ccc';
+        if(analyticsCheckbox.checked) analyticsSpan.style.backgroundColor = '#d4a13e';
+        else analyticsSpan.style.backgroundColor = '#ccc';
+    }
+    function setFunctional(checked) { functionalCheckbox.checked = checked; updateToggleVisuals(); }
+    function setAnalytics(checked) { analyticsCheckbox.checked = checked; updateToggleVisuals(); }
+
+    // initialize toggle style
+    updateToggleVisuals();
+    functionalCheckbox.addEventListener('change', updateToggleVisuals);
+    analyticsCheckbox.addEventListener('change', updateToggleVisuals);
+
+    function showMessage(msg, isError = false) {
+        feedbackSpan.innerHTML = msg;
+        feedbackSpan.style.color = isError ? '#c0392b' : '#7a562e';
+        setTimeout(() => { if(feedbackSpan.innerHTML === msg) feedbackSpan.innerHTML = ''; }, 3000);
+    }
+
+    saveBtn.addEventListener('click', () => {
+        localStorage.setItem('yugenic_functional_consent', functionalCheckbox.checked);
+        localStorage.setItem('yugenic_analytics_consent', analyticsCheckbox.checked);
+        showMessage('✅ Your cookie preferences have been saved! Functional: ' + (functionalCheckbox.checked ? 'ON' : 'OFF') + ', Analytics: ' + (analyticsCheckbox.checked ? 'ON' : 'OFF'));
+    });
+    rejectAllBtn.addEventListener('click', () => {
+        setFunctional(false);
+        setAnalytics(false);
+        localStorage.setItem('yugenic_functional_consent', 'false');
+        localStorage.setItem('yugenic_analytics_consent', 'false');
+        showMessage('✋ Rejected all optional cookies. Only strictly necessary cookies remain active.');
+    });
+    acceptAllBtn.addEventListener('click', () => {
+        setFunctional(true);
+        setAnalytics(true);
+        localStorage.setItem('yugenic_functional_consent', 'true');
+        localStorage.setItem('yugenic_analytics_consent', 'true');
+        showMessage('🍪 Accepted all cookies! Functional and analytics cookies are now enabled.');
+    });
+
+    // load saved preferences if any for demo
+    const savedFunctional = localStorage.getItem('yugenic_functional_consent');
+    const savedAnalytics = localStorage.getItem('yugenic_analytics_consent');
+    if(savedFunctional !== null) setFunctional(savedFunctional === 'true');
+    if(savedAnalytics !== null) setAnalytics(savedAnalytics === 'true');
+
+    // hover effect on table rows
+    const tblRows = document.querySelectorAll('.data-table tr');
+    tblRows.forEach(row => {
+        row.addEventListener('mouseenter', () => { row.style.backgroundColor = '#fff9e0'; });
+        row.addEventListener('mouseleave', () => { row.style.backgroundColor = ''; });
+    });
+    // add badge for cookie banner simulation note
+    const consentDiv = document.getElementById('consentControls');
+    if(consentDiv) {
+        const extraNote = document.createElement('p');
+        extraNote.style.fontSize = '0.75rem';
+        extraNote.style.marginTop = '1rem';
+        extraNote.innerHTML = '🔐 This preference center demonstrates how Yugenic respects your choices. The actual site stores consent via local storage and respects Global Privacy Control.';
+        consentDiv.appendChild(extraNote);
+    }
+    // hash scroll
+    if(window.location.hash) {
+        const el = document.getElementById(window.location.hash.substring(1));
+        if(el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth' }), 100);
+    }
+</script>
+</body>
+</html>
